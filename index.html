@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <link href = "style.css" rel = "stylesheet"\>
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href ="#aboutus"><div>About Us</div></a>
+        <a href ="#recentmodels"><div>Recent Models</div></a>
+        <a href ="#dreamcar"><div>Find Your Dream Car</div></a>
+        <a href ="#ad"><div>Car Preview</div></a>
+        <a href ="#contact"><div>Contact Us</div></a>
+    </nav>
+    <div id = 'logoContainer'><img src = "Assets/honda.png"></div>
+    <div id = "content">
+        <div class = "sections" id = "aboutus">
+            <h1>Who Are We? </h1>
+            <h2>We Are Dream Builders</h2>
+            <br>
+            <h2>We Believe In The Power Of Dreams But Acting On Them Is Our Focus</h2>
+        </div>
+        <div class = "sections" id = "recentmodels">
+        <div class = "modelSections">
+            <img src = "Assets/2022HondaCRV.png">
+            <h3>2022 Honda CRV</h3>
+            <p>Check Pricing <a href = "">Here</a></p>
+        </div>
+        <div class = "modelSections">
+            <img src = "Assets/2023HondaCivic.png">
+            <h3>2023 Honda Civic</h3>
+            <p>Check Pricing <a href = "">Here</a></p>
+        </div>
+        <div class = "modelSections">
+            <img src = "Assets/2023HondaOdyssey.png">
+            <h3>2023 Honda Odyssey</h3>
+            <p>Check Pricing <a href = "">Here</a></p>
+        </div>
+    </div>
+        <div class = "sections" id = "dreamcar">
+            <button id = "findDreamCar" onClick = "generateFutureCar()">Find Your Dream Car</button>
+            <div id = "dreamcarContainer"></div>
+        </div>
+        <div class = "sections" id = "ad">
+            <video width = "400" height = "250" controls muted autoplay>
+                <source src = "Video/say-yes-to-the-all-new-2022-honda-civic.mp4" type = "video/mp4">
+            </video>
+            <div>Credit to Honda</div>
+        </div>
+        <div class = "sections" id = "contact">
+            <h1>We Would Love To Hear From You!</h1>
+            <h2>Contact Us</h2>
+            <div id = "contactTable">
+                <div id = "contactTable_Row1">
+                    <a href = "https://www.facebook.com/Honda/"><h3>Facebook</h3></a>
+                    <a href = "https://www.honda.com/"><h3>Customer Service: +1 (800) 999 - 1009</h3></a>
+                </div>
+                <div id = "contactTable_Row2">
+                    <a href = "https://twitter.com/Honda"><h3>Twitter</h3></a>
+                    <a href = "https://www.instagram.com/honda/"><h3>Instagram</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
